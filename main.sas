@@ -22,4 +22,4 @@ set exponential gamma llogistic weibull logistic lnormal normal;
 run;
 
 title 'Compare fits';
-proc print data=fitdata;run;
+proc print noobs data=fitdata;run;
